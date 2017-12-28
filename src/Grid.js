@@ -1,8 +1,7 @@
-import PropTypes from 'prop-types';
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { View, StyleSheet } from 'react-native';
 import { uniqueValuesInDataSet } from './util';
-import PropTypes from 'prop-types';
 
 export default class Grid extends Component {
 	static propTypes = {
